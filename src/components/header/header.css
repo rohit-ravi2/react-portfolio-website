@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  font-family:'Orbitron', sans-serif;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.typing
+{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px  ;
+}
+
+/* =============== HEADER SOCIALS ============== */
+.socials
+{
+  margin-top: 100px;
+  padding: 2em;
+}
+.social_icons
+{
+  width: 100px;
+}
+
+/* =============== Avatar ============== */
+.me {
+  background: linear-gradient(var(--color-white), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+    padding-top: 4rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+
+  .me {
+    width: 94%;
+    max-width: 20rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+  }
+}

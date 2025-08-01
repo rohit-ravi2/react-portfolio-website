@@ -1,0 +1,16 @@
+[
+  {
+    "title": "RNA 3D Folding with Transformers",
+    "description": "A neural network to predict RNA tertiary structures using distogram loss, AlphaFold-inspired recycling, and SE(3)-aware attention.",
+    "tags": ["deep learning", "biology", "transformer"],
+    "github": "https://github.com/rohit-ravi2/rna-folding",
+    "link": "/projects/rna-3d"
+  },
+  {
+    "title": "AI vs. Human Art Classifier",
+    "description": "CNN + ResNet-based classification of AI-generated and human-created art, with Grad-CAM and t-SNE for interpretability.",
+    "tags": ["cnn", "resnet", "art", "classification"],
+    "github": "https://github.com/rohit-ravi2/visual-classification-ai-vs-human-art",
+    "link": "/projects/art-classifier"
+  }
+]
